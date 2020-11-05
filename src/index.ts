@@ -1,0 +1,7 @@
+import * as requestIp from 'request-ip';
+import { createParamDecorator, ExecutionContext } from '@nestjs/common';
+
+export const RealIP = createParamDecorator((data: unknown, ctx: ExecutionContext) => {
+  const request = ctx.switchToHttp().getRequest();
+  return requestIp.getClientIp(request);
+});

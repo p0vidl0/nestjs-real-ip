@@ -1,0 +1,75 @@
+env:
+  browser: false
+  node: true
+  es6: true
+  jest: true
+
+parser: "@typescript-eslint/parser"
+
+plugins:
+  - "@typescript-eslint/eslint-plugin"
+  - "unused-imports"
+  - "security"
+
+extends:
+  - "airbnb-typescript/base"
+  - "plugin:security/recommended"
+  - "plugin:@typescript-eslint/eslint-recommended"
+  - "plugin:@typescript-eslint/recommended"
+  - "plugin:prettier/recommended"
+  - "prettier/@typescript-eslint"
+
+parserOptions:
+  sourceType: module
+  ecmaVersion: 2018
+  project: tsconfig.json
+
+rules:
+  "@typescript-eslint/interface-name-prefix": off
+  semi:
+    - error
+    - always
+  quotes:
+    - error
+    - single
+  "@typescript-eslint/explicit-function-return-type": off
+  "@typescript-eslint/no-explicit-any": off
+  "@typescript-eslint/member-delimiter-style": error
+  "@typescript-eslint/no-unused-vars": off
+  unused-imports/no-unused-imports-ts: error
+  unused-imports/no-unused-vars-ts:
+    - error
+    - vars: all
+      varsIgnorePattern: "^_"
+      args: after-used
+      argsIgnorePattern: "^_"
+
+  object-curly-newline:
+    - error
+    - ObjectExpression:
+        minProperties: 6
+        multiline: true
+        consistent: true
+  node/no-unsupported-features/es-syntax: off
+  no-await-in-loop: 0
+  import/prefer-default-export: off
+  max-len:
+    - error
+    - code: 120
+      ignoreStrings: true
+  eol-last: error
+  class-methods-use-this: 0
+  no-underscore-dangle:
+    - error
+    - allowAfterSuper: true
+      allowAfterThis: true
+  no-plusplus:
+    - error
+    - allowForLoopAfterthoughts: true
+  security/detect-object-injection: off
+
+settings:
+  import/resolver:
+    node:
+      extensions:
+        - ".ts"
