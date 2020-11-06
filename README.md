@@ -29,7 +29,7 @@ Based on the tiny module [request-ip](https://github.com/pbojinov/request-ip).
 It supports a wide list of request headers and properties to get working in almost any environment.
 See the request-ip module description for details.
 
-Also, see the decorator's [tests](blob/master/__test__/index.ts).
+Also, see the decorator's [tests](blob/master/__tests__/index.spec.ts).
 
 ## License
 The code is under MIT license. See the LICENSE file for details.
