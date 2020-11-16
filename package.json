@@ -39,7 +39,7 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.js",
+  "main": "./dist/src/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix && prettier --write \"{src,test}/**/*.ts\"",
@@ -86,8 +86,14 @@
   },
   "license": "MIT",
   "jest": {
-    "moduleFileExtensions": ["js", "json", "ts"],
-    "roots": ["__tests__"],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "roots": [
+      "__tests__"
+    ],
     "rootDir": ".",
     "testRegex": ".spec.ts$",
     "transform": {
