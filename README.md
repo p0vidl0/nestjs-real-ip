@@ -33,3 +33,11 @@ Also, see the decorator's [tests](__tests__/index.spec.ts).
 
 ## License
 The code is under MIT license. See the LICENSE file for details.
+
+## Development
+
+```shell script
+# Update code, commit and push with git
+npm version [ major | minor | patch ]
+npm publish
+```
