@@ -1,7 +1,7 @@
 {
   "name": "nestjs-real-ip",
   "author": "Alex Kalashnikov",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A concise decorator for retrieving an IP address from http request with Nest.js controller method",
   "keywords": [
     "nestjs",
