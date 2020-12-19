@@ -2,7 +2,7 @@
 
 A concise decorator for retrieving an IP address from http request with Nest.js controller method.  
 
-![](https://nodei.co/npm/nestjs-real-ip.png?downloads=true&cacheBust=2)
+[![NPM package link](https://nodei.co/npm/nestjs-real-ip.png?downloads=true&cacheBust=2)](https://www.npmjs.com/package/nestjs-real-ip)
 
 ## Installation
 
