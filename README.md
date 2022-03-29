@@ -29,7 +29,7 @@ class TestController {
 ```
 
 ## Under the hood
-Based on the tiny module [request-ip](https://github.com/pbojinov/request-ip).
+Based on the tiny module [@supercharge/request-ip](https://github.com/supercharge/request-ip).
 It supports a wide list of request headers and properties to get working in almost any environment.
 See the request-ip module description for details.
 
