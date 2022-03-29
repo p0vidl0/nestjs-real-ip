@@ -1,4 +1,4 @@
-import * as requestIp from 'request-ip';
+import * as requestIp from '@supercharge/request-ip';
 import { createParamDecorator, ExecutionContext } from '@nestjs/common';
 
 export const RealIP = createParamDecorator((data: unknown, ctx: ExecutionContext) => {
