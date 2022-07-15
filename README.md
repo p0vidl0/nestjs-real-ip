@@ -7,7 +7,7 @@ A concise decorator for retrieving an IP address from http request with Nest.js 
 ## Installation
 
 ```shell script
-# Install the upstream version for projects based on NestJS v8
+# Install the upstream version for projects based on NestJS v8 and above
 npm install nestjs-real-ip
 
 # Or use the version 1.0.3 for projects based on NestJS v7
