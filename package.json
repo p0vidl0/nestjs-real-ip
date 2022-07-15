@@ -54,7 +54,7 @@
     "@supercharge/request-ip": "^1.2.0"
   },
   "peerDependencies": {
-    "@nestjs/common": "^9.0.0"
+    "@nestjs/common": "8 - 9"
   },
   "devDependencies": {
     "@nestjs/common": "^9.0.0",
