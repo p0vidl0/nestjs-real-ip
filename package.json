@@ -54,15 +54,15 @@
     "@supercharge/request-ip": "^1.2.0"
   },
   "peerDependencies": {
-    "@nestjs/common": "8 - 9"
+    "@nestjs/common": ">=8"
   },
   "devDependencies": {
     "@jest/types": "^28.0.0",
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/core": "^9.0.0",
-    "@nestjs/platform-express": "^9.0.0",
-    "@nestjs/platform-fastify": "^9.0.0",
-    "@nestjs/testing": "^9.0.0",
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/platform-fastify": "^10.0.0",
+    "@nestjs/testing": "^10.0.0",
     "@types/jest": "^28.1.5",
     "@types/node": "^18.0.4",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
@@ -84,7 +84,7 @@
     "ts-loader": "^9.3.1",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.0.0",
-    "typescript": "^4.7.4",
+    "typescript": "^4.8.0",
     "webpack": "^5.0.0"
   },
   "license": "MIT",
